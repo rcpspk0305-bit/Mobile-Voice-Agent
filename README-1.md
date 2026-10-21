@@ -5,7 +5,6 @@
 Native Kotlin project, **no `INTERNET` permission**, no HTTP libraries, no analytics SDK, no telemetry,
 no server or chat interface. Microphone samples and transcripts are processed in RAM and discarded, except for notes the user explicitly requests to save. SQLite notes are
 AES-256-GCM encrypted under a nonexportable Android Keystore key, with app backups disabled.
-
 **Status: reference implementation, not a certified production release.** The base project source is
 complete but a speech model must be packaged before it can listen. It has not been compiled or run
 on a physical Android device in this delivery environment. Do not publish before completing the
